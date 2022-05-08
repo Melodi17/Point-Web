@@ -3,6 +3,7 @@ import "src/css/main.css";
 import "src/css/about.css";
 import "src/js/main.js";
 import "src/js/about.js";
+import "https://fonts.googleapis.com/css?family=Roboto" as "stylesheet";
 
 $title = "Point";
 $page = "About";
