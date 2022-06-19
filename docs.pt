@@ -13,6 +13,16 @@ html {
 		title { $title + " | " + $page; }
 	}
 	body {
+		table.banner {
+			tr {
+				td.icon {
+					img { src: "src/img/point.png"; }
+				}
+				td.title {
+					h1 { $title + " ― " + $page; }
+				}
+			}
+		}
         div.navbar {
             ul {
 			    li { a { href: "index.html"; "Home"; } }
@@ -23,10 +33,76 @@ html {
 			    li { a.active { href: "docs.html"; "Documentation"; }	 }
 			}
         }
-        h1 { $title; }
-        button.primary { "Primary"; }
-        br { }
-        button.secondary { "Secondary"; }
+		div.sidebar {
+			ul {
+				li { a { href: "#syntax"; "Syntax"; } }
+				li { a { href: "#constants"; "Constants"; } }
+				li { a { href: "#logic"; "Logic"; } }
+				li { a { href: "#variables"; "Variables"; } }
+				li { a { href: "#comments"; "Comments"; } }
+				li { a { href: "#importing"; "Importing"; } }
+				li { a { href: "#attaching"; "Attaching"; } }
+			}
+		}
+        div.content {
+			h1.center { $page; }
+			table {
+				tr {
+					td.col {
+						div#syntax.card {
+							h2 { "Lorem ipsum dolor sit?"; }
+							p { ""; }
+						}
+						div#constants.card {
+							h2 { "Lorem ipsum dolor sit?"; }
+							p { "Lorem ipsum dolor sit amet ipsum. Labore at et. Aliquyam et dolore rebum diam vero nulla magna kasd facilisi. Lorem et sit sit augue magna molestie justo lorem kasd. Hendrerit nibh dolore ipsum eos dolores diam lorem dolore eirmod et sit eos amet dolor lobortis duo. Nobis rebum clita gubergren est vel sadipscing gubergren facer eos elitr lorem sadipscing justo elitr ut dolor lorem magna. Sit gubergren clita facilisis eos praesent iusto et sanctus sanctus esse dolores et accusam sit dolor magna consectetuer. Duo est accumsan diam laoreet stet et augue ipsum id ipsum dolor elitr sed tempor sed dolor ipsum. Tempor dolor voluptua kasd. Illum eirmod et labore ipsum lorem erat diam ea labore magna ut doming gubergren ut rebum diam nonumy eum."; }
+						}
+						div#logic.card {
+							h2 { "Lorem ipsum dolor sit?"; }
+							p { "Lorem ipsum dolor sit amet ipsum. Labore at et. Aliquyam et dolore rebum diam vero nulla magna kasd facilisi. Lorem et sit sit augue magna molestie justo lorem kasd. Hendrerit nibh dolore ipsum eos dolores diam lorem dolore eirmod et sit eos amet dolor lobortis duo. Nobis rebum clita gubergren est vel sadipscing gubergren facer eos elitr lorem sadipscing justo elitr ut dolor lorem magna. Sit gubergren clita facilisis eos praesent iusto et sanctus sanctus esse dolores et accusam sit dolor magna consectetuer. Duo est accumsan diam laoreet stet et augue ipsum id ipsum dolor elitr sed tempor sed dolor ipsum. Tempor dolor voluptua kasd. Illum eirmod et labore ipsum lorem erat diam ea labore magna ut doming gubergren ut rebum diam nonumy eum."; }
+						}
+					}
+					td.gutter { }
+					td.col {
+						div.card {
+							h2 { "Lorem ipsum dolor sit?"; }
+							p { "Lorem ipsum dolor sit amet ipsum. Labore at et. Aliquyam et dolore rebum diam vero nulla magna kasd facilisi. Lorem et sit sit augue magna molestie justo lorem kasd. Hendrerit nibh dolore ipsum eos dolores diam lorem dolore eirmod et sit eos amet dolor lobortis duo. Nobis rebum clita gubergren est vel sadipscing gubergren facer eos elitr lorem sadipscing justo elitr ut dolor lorem magna. Sit gubergren clita facilisis eos praesent iusto et sanctus sanctus esse dolores et accusam sit dolor magna consectetuer. Duo est accumsan diam laoreet stet et augue ipsum id ipsum dolor elitr sed tempor sed dolor ipsum. Tempor dolor voluptua kasd. Illum eirmod et labore ipsum lorem erat diam ea labore magna ut doming gubergren ut rebum diam nonumy eum."; }
+						}
+						div.card {
+							h2 { "Lorem ipsum dolor sit?"; }
+							p { "Lorem ipsum dolor sit amet ipsum. Labore at et. Aliquyam et dolore rebum diam vero nulla magna kasd facilisi. Lorem et sit sit augue magna molestie justo lorem kasd. Hendrerit nibh dolore ipsum eos dolores diam lorem dolore eirmod et sit eos amet dolor lobortis duo. Nobis rebum clita gubergren est vel sadipscing gubergren facer eos elitr lorem sadipscing justo elitr ut dolor lorem magna. Sit gubergren clita facilisis eos praesent iusto et sanctus sanctus esse dolores et accusam sit dolor magna consectetuer. Duo est accumsan diam laoreet stet et augue ipsum id ipsum dolor elitr sed tempor sed dolor ipsum. Tempor dolor voluptua kasd. Illum eirmod et labore ipsum lorem erat diam ea labore magna ut doming gubergren ut rebum diam nonumy eum."; }
+						}
+					}
+				}
+			}
+				tr {
+					td.col {
+						div.card {
+							h2 { "Lorem ipsum dolor sit?"; }
+							p { "Lorem ipsum dolor sit amet ipsum. Labore at et. Aliquyam et dolore rebum diam vero nulla magna kasd facilisi. Lorem et sit sit augue magna molestie justo lorem kasd. Hendrerit nibh dolore ipsum eos dolores diam lorem dolore eirmod et sit eos amet dolor lobortis duo. Nobis rebum clita gubergren est vel sadipscing gubergren facer eos elitr lorem sadipscing justo elitr ut dolor lorem magna. Sit gubergren clita facilisis eos praesent iusto et sanctus sanctus esse dolores et accusam sit dolor magna consectetuer. Duo est accumsan diam laoreet stet et augue ipsum id ipsum dolor elitr sed tempor sed dolor ipsum. Tempor dolor voluptua kasd. Illum eirmod et labore ipsum lorem erat diam ea labore magna ut doming gubergren ut rebum diam nonumy eum."; }
+						}
+						div.card {
+							h2 { "Lorem ipsum dolor sit?"; }
+							p { "Lorem ipsum dolor sit amet ipsum. Labore at et. Aliquyam et dolore rebum diam vero nulla magna kasd facilisi. Lorem et sit sit augue magna molestie justo lorem kasd. Hendrerit nibh dolore ipsum eos dolores diam lorem dolore eirmod et sit eos amet dolor lobortis duo. Nobis rebum clita gubergren est vel sadipscing gubergren facer eos elitr lorem sadipscing justo elitr ut dolor lorem magna. Sit gubergren clita facilisis eos praesent iusto et sanctus sanctus esse dolores et accusam sit dolor magna consectetuer. Duo est accumsan diam laoreet stet et augue ipsum id ipsum dolor elitr sed tempor sed dolor ipsum. Tempor dolor voluptua kasd. Illum eirmod et labore ipsum lorem erat diam ea labore magna ut doming gubergren ut rebum diam nonumy eum."; }
+						}
+						div.card {
+							h2 { "Lorem ipsum dolor sit?"; }
+							p { "Lorem ipsum dolor sit amet ipsum. Labore at et. Aliquyam et dolore rebum diam vero nulla magna kasd facilisi. Lorem et sit sit augue magna molestie justo lorem kasd. Hendrerit nibh dolore ipsum eos dolores diam lorem dolore eirmod et sit eos amet dolor lobortis duo. Nobis rebum clita gubergren est vel sadipscing gubergren facer eos elitr lorem sadipscing justo elitr ut dolor lorem magna. Sit gubergren clita facilisis eos praesent iusto et sanctus sanctus esse dolores et accusam sit dolor magna consectetuer. Duo est accumsan diam laoreet stet et augue ipsum id ipsum dolor elitr sed tempor sed dolor ipsum. Tempor dolor voluptua kasd. Illum eirmod et labore ipsum lorem erat diam ea labore magna ut doming gubergren ut rebum diam nonumy eum."; }
+						}
+					}
+					td.gutter { }
+					td.col {
+						div.card {
+							h2 { "Lorem ipsum dolor sit?"; }
+							p { "Lorem ipsum dolor sit amet ipsum. Labore at et. Aliquyam et dolore rebum diam vero nulla magna kasd facilisi. Lorem et sit sit augue magna molestie justo lorem kasd. Hendrerit nibh dolore ipsum eos dolores diam lorem dolore eirmod et sit eos amet dolor lobortis duo. Nobis rebum clita gubergren est vel sadipscing gubergren facer eos elitr lorem sadipscing justo elitr ut dolor lorem magna. Sit gubergren clita facilisis eos praesent iusto et sanctus sanctus esse dolores et accusam sit dolor magna consectetuer. Duo est accumsan diam laoreet stet et augue ipsum id ipsum dolor elitr sed tempor sed dolor ipsum. Tempor dolor voluptua kasd. Illum eirmod et labore ipsum lorem erat diam ea labore magna ut doming gubergren ut rebum diam nonumy eum."; }
+						}
+						div.card {
+							h2 { "Lorem ipsum dolor sit?"; }
+							p { "Lorem ipsum dolor sit amet ipsum. Labore at et. Aliquyam et dolore rebum diam vero nulla magna kasd facilisi. Lorem et sit sit augue magna molestie justo lorem kasd. Hendrerit nibh dolore ipsum eos dolores diam lorem dolore eirmod et sit eos amet dolor lobortis duo. Nobis rebum clita gubergren est vel sadipscing gubergren facer eos elitr lorem sadipscing justo elitr ut dolor lorem magna. Sit gubergren clita facilisis eos praesent iusto et sanctus sanctus esse dolores et accusam sit dolor magna consectetuer. Duo est accumsan diam laoreet stet et augue ipsum id ipsum dolor elitr sed tempor sed dolor ipsum. Tempor dolor voluptua kasd. Illum eirmod et labore ipsum lorem erat diam ea labore magna ut doming gubergren ut rebum diam nonumy eum."; }
+						}
+					}
+				}
+			}
 
         div.footer {
 			p { "Made by Melodi"; }

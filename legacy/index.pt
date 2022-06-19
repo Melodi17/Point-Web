@@ -9,27 +9,12 @@ html {
 	}
 	body {
 		h1 { "Introducing " + $title; }
-		h2 { "Overview"; }
-		p {
-			"A simple, fast, and powerful preproccessor for building user interfaces.";
-		}
-
-		h2 { "Features"; }
-		ul {
-			li { "Variable injection"; }
-			li { "Expression evaluation"; }
-			li { "Importing"; }
-			li { "File attaching"; }
-			li { "Syntax suggestions"; }
-			li { "Versatile syntax"; }
-			li { "Comments"; }
-		}
 
 		h2 { "Installation"; }
 		p { "Install " + $title + " with command prompt"; }
 		.code {
 			"$ git clone https://github.com/Melodi17/Point"; br {}
-			"$ cd Point"; br {}
+			"$ cd Point"; br {}	
 			"$ install.bat"; br {}
 		}
 
