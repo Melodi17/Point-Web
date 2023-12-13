@@ -34,7 +34,9 @@ html {
 			}
         }
 		
-        p.shaded { "This is currently unavailable"; }
+        p.shaded {
+			"Get started is currently unavailable :(";
+		}
 
         div.footer {
 			p { "Made by Melodi"; }

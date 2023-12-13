@@ -28,7 +28,7 @@ a.link:hover {
   letter-spacing: -0.05em;
   line-height: 140%;
   padding: 10px;
-  width: 30%;
+  width: fit-content;
   word-break: normal;
 }
 

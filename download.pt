@@ -1,4 +1,4 @@
-import "src/img/point.ico";
+import "src/img/poin	t.ico";
 import "src/css/main.css";
 import "src/css/download.css";
 import "src/js/main.js";
@@ -43,27 +43,15 @@ html {
 				tr {
 					td.col {
 						div.card {
-							h2 { "Lorem ipsum dolor sit?"; }
-							p { "Lorem ipsum dolor sit amet ipsum. Labore at et. Aliquyam et dolore rebum diam vero nulla magna kasd facilisi. Lorem et sit sit augue magna molestie justo lorem kasd. Hendrerit nibh dolore ipsum eos dolores diam lorem dolore eirmod et sit eos amet dolor lobortis duo. Nobis rebum clita gubergren est vel sadipscing gubergren facer eos elitr lorem sadipscing justo elitr ut dolor lorem magna. Sit gubergren clita facilisis eos praesent iusto et sanctus sanctus esse dolores et accusam sit dolor magna consectetuer. Duo est accumsan diam laoreet stet et augue ipsum id ipsum dolor elitr sed tempor sed dolor ipsum. Tempor dolor voluptua kasd. Illum eirmod et labore ipsum lorem erat diam ea labore magna ut doming gubergren ut rebum diam nonumy eum."; }
-						}
-						div.card {
-							h2 { "Lorem ipsum dolor sit?"; }
-							p { "Lorem ipsum dolor sit amet ipsum. Labore at et. Aliquyam et dolore rebum diam vero nulla magna kasd facilisi. Lorem et sit sit augue magna molestie justo lorem kasd. Hendrerit nibh dolore ipsum eos dolores diam lorem dolore eirmod et sit eos amet dolor lobortis duo. Nobis rebum clita gubergren est vel sadipscing gubergren facer eos elitr lorem sadipscing justo elitr ut dolor lorem magna. Sit gubergren clita facilisis eos praesent iusto et sanctus sanctus esse dolores et accusam sit dolor magna consectetuer. Duo est accumsan diam laoreet stet et augue ipsum id ipsum dolor elitr sed tempor sed dolor ipsum. Tempor dolor voluptua kasd. Illum eirmod et labore ipsum lorem erat diam ea labore magna ut doming gubergren ut rebum diam nonumy eum."; }
-						}
-						div.card {
-							h2 { "Lorem ipsum dolor sit?"; }
-							p { "Lorem ipsum dolor sit amet ipsum. Labore at et. Aliquyam et dolore rebum diam vero nulla magna kasd facilisi. Lorem et sit sit augue magna molestie justo lorem kasd. Hendrerit nibh dolore ipsum eos dolores diam lorem dolore eirmod et sit eos amet dolor lobortis duo. Nobis rebum clita gubergren est vel sadipscing gubergren facer eos elitr lorem sadipscing justo elitr ut dolor lorem magna. Sit gubergren clita facilisis eos praesent iusto et sanctus sanctus esse dolores et accusam sit dolor magna consectetuer. Duo est accumsan diam laoreet stet et augue ipsum id ipsum dolor elitr sed tempor sed dolor ipsum. Tempor dolor voluptua kasd. Illum eirmod et labore ipsum lorem erat diam ea labore magna ut doming gubergren ut rebum diam nonumy eum."; }
+							h2 { "Download binary"; }
+							p { "Download binary will download you a freshly-baked copy of the point executable so you can start coding straight away!"; }
 						}
 					}
 					td.gutter { }
 					td.col {
 						div.card {
-							h2 { "Lorem ipsum dolor sit?"; }
-							p { "Lorem ipsum dolor sit amet ipsum. Labore at et. Aliquyam et dolore rebum diam vero nulla magna kasd facilisi. Lorem et sit sit augue magna molestie justo lorem kasd. Hendrerit nibh dolore ipsum eos dolores diam lorem dolore eirmod et sit eos amet dolor lobortis duo. Nobis rebum clita gubergren est vel sadipscing gubergren facer eos elitr lorem sadipscing justo elitr ut dolor lorem magna. Sit gubergren clita facilisis eos praesent iusto et sanctus sanctus esse dolores et accusam sit dolor magna consectetuer. Duo est accumsan diam laoreet stet et augue ipsum id ipsum dolor elitr sed tempor sed dolor ipsum. Tempor dolor voluptua kasd. Illum eirmod et labore ipsum lorem erat diam ea labore magna ut doming gubergren ut rebum diam nonumy eum."; }
-						}
-						div.card {
-							h2 { "Lorem ipsum dolor sit?"; }
-							p { "Lorem ipsum dolor sit amet ipsum. Labore at et. Aliquyam et dolore rebum diam vero nulla magna kasd facilisi. Lorem et sit sit augue magna molestie justo lorem kasd. Hendrerit nibh dolore ipsum eos dolores diam lorem dolore eirmod et sit eos amet dolor lobortis duo. Nobis rebum clita gubergren est vel sadipscing gubergren facer eos elitr lorem sadipscing justo elitr ut dolor lorem magna. Sit gubergren clita facilisis eos praesent iusto et sanctus sanctus esse dolores et accusam sit dolor magna consectetuer. Duo est accumsan diam laoreet stet et augue ipsum id ipsum dolor elitr sed tempor sed dolor ipsum. Tempor dolor voluptua kasd. Illum eirmod et labore ipsum lorem erat diam ea labore magna ut doming gubergren ut rebum diam nonumy eum."; }
+							h2 { "Download source"; }
+							p { "Download source will allow you to visit the github repository so you can compile yourself or contribute to the project."; }
 						}
 					}
 				}
